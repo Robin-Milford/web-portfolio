@@ -1,50 +1,88 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0%;
-}
-
-section {
-    height: 500px;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.robin {
-    color: orange;
-}
-
-.half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
-
-.half-width img {
-    width: 100%;
-    padding-top: 3%;
-}
-
-.top-banner {
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-    margin-bottom: 300px;
-}
-
-.link-button {
-    text-decoration: none;
-    background-color: salmon;
-    padding: 10px 20px;
-    border-radius: 5%;
-    font-weight: 700;
-    color: white;
-    background-image: linear-gradient(45deg, lightSalmon, tomato)
-}
-
-.dream-area {
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-}
+                    body {
+                        font-family: 'Poppins', sans-serif;
+                        margin: 0%;
+                    }
+                    
+                    section {
+                        height: 58px;
+                    }
+                    
+                    h1 {
+                        font-size: 50px;
+                    }
+                    
+                    .orange-highlight {
+                        color: orange;
+                    }
+                    
+                    .half-width {
+                        width: 40%;
+                        float: left;
+                        margin-left: 5%;
+                        padding-left: 2%;
+                    }
+                    
+                    .half-width img {
+                        width: 100%;
+                        padding-top: 3%;
+                    }
+                    
+                    .top-banner {
+                        background-image: url("images/top-banner.png");
+                        background-repeat: no-repeat;
+                        margin-bottom: 300px;
+                    }
+                    
+                    .link-button {
+                        text-decoration: none;
+                        background-color: salmon;
+                        padding: 10px 20px;
+                        border-radius: 5%;
+                        font-weight: 700;
+                        color: white;
+                        background-image: linear-gradient(45deg, lightSalmon, tomato)
+                    }
+                    
+                    .dream-area {
+                        background-image: url("images/dream-bg.png");
+                        background-repeat: no-repeat;
+                        background-position: right;
+                        margin-bottom: -200px;
+                        height: 1055px;
+                        margin-top: 700px;
+                    }
+                    
+                    .exp {
+                        margin-left: 132px;
+                    }
+                    
+                    .rrr {
+                        margin-bottom: 350px;
+                    }
+                    
+                    .single-exp {
+                        box-shadow: 10px 10px 40px gray;
+                        border-radius: 5px;
+                    }
+                    
+                    .navbar {
+                        padding-top: 20px;
+                        background-color: rgb(248, 213, 147);
+                    }
+                    
+                    .border-left {
+                        border-left: 10px solid;
+                        border-image: linear-gradient(180deg, lightSalmon, tomato);
+                        border-image-slice: 1;
+                    }
+                    
+                    .border-right {
+                        border-left: 10px solid;
+                        border-image: linear-gradient(180deg, blue, cyan);
+                        border-image-slice: 1;
+                    }
+                    
+                    .footer {
+                        margin-top: 900px;
+                        text-align: center;
+                    }
